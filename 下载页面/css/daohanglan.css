@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.clearfix:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    line-height:0;
+    visibility: hidden;
+}
+.clearfix {
+    zoom: 1;
+}
+.box1{
+    width: 100%;
+    height: 203px;
+    background: url(../images/bg1.jpg) no-repeat;
+    margin:0 auto ;
+}
+.yingzi{
+    width: 100%;
+    height: 52px;
+    background-color: rgba(98,92,92,.8);
+}
+.yingzi1 ul li a{
+    width: 136px;
+    height: 51px;
+    float: left;
+    /*background: red;*/
+    /*background: url(../images/nav.png) ;*/
+    /*background-position: 3px 1px;*/
+}
+.yingzi1 .url1{
+    width: 4px;
+    height: 51px;
+    background: url("../images/nav.png");
+    background-position: 2px 1px ;
+    position: relative;
+    left: 827px;
+}
+.zhaohaizi .woshi1{
+    background: url(../images/nav.png) ;
+    background-position: 3px 1px;
+}
+.zhaohaizi .woshi2{
+    background: url(../images/nav.png) ;
+    background-position: -132px 1px;
+}
+.zhaohaizi .woshi3{
+    background: url(../images/nav.png) ;
+    background-position: -266px 1px;
+}
+.zhaohaizi .woshi4{
+    background: url(../images/nav.png) ;
+    background-position: -402px 1px;
+}
+.zhaohaizi .woshi5{
+    background: url(../images/nav.png) ;
+    background-position: -538px 1px;
+}
+.zhaohaizi .woshi6{
+    background: url(../images/nav.png) ;
+    background-position: -674px 1px;
+}
+.zhaohaizi{
+    margin-left: 205px;
+}
+.box2{
+    /*width: 100%;*/
+    height: 300px;
+    margin-top: 152px;
+    /*background-color: aqua;*/
+}
+.xiazaibiao{
+    width: 1140px;
+    border-bottom:1px solid #c7c7c7 ;
+    float: left;
+}
+h1{
+    float: left;
+    margin: 40px 0 0 10px!important;
+    color: #2b2b2b;
+    font-size: 32px;
+}
+.xiazaibiao span{
+    float: left;
+    margin: -12px 0 9px 932px;
+    /*position: absolute;*/
+}
+ .mybtn14_3 a:active{
+    color: blue;
+}
+.xiazaian li{
+    float: left;
+    margin: 40px 0 0 10px;
+    width: 130px;
+    height: 64px;
+    text-align: center;
+    line-height: 64px;
+    /*border: 1px solid #ff662b;*/
+    background-color:#585858 ;
+    border-radius: 30px;
+}
+.xiazaian li a{
+     color: #fff;
+}
+.banben p{
+    text-align: center;
+    margin: 60px 216px 0 0;
+}
+.banben p span{
+    margin-left: 20px;
+}
+.xuanzexiazaian{
+    margin-left: 250px;
+}
+.xuanzexiazaian li{
+    float: left;
+    margin: 60px 50px 0 0;
+}
+
+
+
+
+

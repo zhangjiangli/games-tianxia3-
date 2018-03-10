@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <base target="_blank"/>
+    <title>天下3</title>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/base.css"/>
+    <link rel="stylesheet" href="css/init.css"/>
+    <!--引入样式-->
+    <link rel="stylesheet" href="src/css/perspectiveRules.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <!--引入插件layui的css文件-->
+    <link rel="stylesheet" href="layui/css/layui.css"/>
+
+    <script src="jquery/jquery.js"></script>
+    <!--引入框架layui的js文件-->
+    <script src="layui/layui.js"></script>
+    <script src="src/jquery.logosDistort.min.js"></script>
+    <script src="js/index.js"></script>
+
+</head>
+<body>
+<!--头部-->
+<div class="header">
+    <div class="w">
+        <div class="logo"><a href="#">网易游戏</a></div>
+        <ul>
+            <li><a href="注册页面/index.html">注册账号</a></li>
+            <li><a href="网易充值中心/index.html">购卡充值</a></li>
+            <li><a href="#">网易游戏全目录</a></li>
+            <li><a href="#">游戏充值9.8折</a></li>
+            <li><a href="下载页面/index.html">下载</a></li>
+        </ul>
+    </div>
+</div>
+<!--视频部分-->
+<div class="videoBox">
+    <div id="demo1" style="width: 500px;height: 400px;opacity: .5">
+        <img alt="background" src="images/bigBgImg.jpg" />
+    </div>
+    <div class="video">
+        <video width="100%" height="100%" loop autoplay>
+            <source src="video/tianxia3.mp4" type="video/mp4"/>
+            <source src="video/tianxia3.ogg" type="video/ogg"/>
+            您的浏览器不支持 video 标签。
+        </video>
+    </div>
+    <div class="controlBtn">
+    </div>
+    <div class="rotateImg w">
+        <ul id="rotateImg_ul">
+            <li><img src="images/rotate_img1.jpg" alt=""/></li>
+            <li><img src="images/rotate_img2.jpg" alt=""/></li>
+            <li><img src="images/rotate_img3.jpg" alt=""/></li>
+            <li><img src="images/rotate_img4.jpg" alt=""/></li>
+            <li><img src="images/rotate_img5.jpg" alt=""/></li>
+            <li><img src="images/rotate_img6.jpg" alt=""/></li>
+        </ul>
+    </div>
+    <!--登录官网-->
+    <div class="gwBtn">
+        <a href="官网首页/index.html"></a>
+    </div>
+    <div class="closeBtn" style="z-index: 1200;display:none;position: fixed;right: 86px"></div>
+</div>
+<!--5秒快速注册的大盒子-->
+<div class="section w">
+    <div class="box box1" id="box1">
+        <h2>
+            <span class="titleLogo"></span>
+            <span class="title">5秒快速注册</span>
+        </h2>
+        <input type="text" placeholder=" &nbsp;邮箱注册"/>
+        <input type="password" placeholder=" &nbsp;6-16位密码，区分大小写"/>
+        <span class="info">我同意《服务条款》和《隐私保护和个人信息利用政策》</span>
+
+        <div class="btnImg">立即注册</div>
+    </div>
+    <div class="box box2" id="box2">
+        <h2>
+            <span class="titleLogo"></span>
+            <span class="title">玩转天下,人人有奖</span>
+        </h2>
+        <a href=""><img src="images/lb1_1b4647a.png" alt=""/></a>
+
+        <div class="btnImg">领取礼包</div>
+    </div>
+    <div class="box box3" id="box3">
+        <h2>
+            <span class="titleLogo"></span>
+            <span class="title">极速下载,抢先体验</span>
+        </h2>
+        <a href=""><img src="images/down_3f1e2db.png" alt=""/></a>
+
+        <div class="btnImg">下载游戏</div>
+    </div>
+    <div class="box box4" id="box4">
+        <h2>
+            <span class="titleLogo"></span>
+            <span class="title">登录游戏,转盘大礼</span>
+        </h2>
+        <a href=""><img src="images/jp1_43e8c66.png" alt=""/></a>
+
+        <div class="btnImg">查看详情</div>
+    </div>
+</div>
+<!--游戏特色-->
+<div class="gameTitle w"></div>
+<!--轮播图-->
+<div class="carousel w">
+    <div class="carousel_ImgBox">
+        <ul class="carousel_Img" style="display: block">
+            <li><img src="picture/dt1-1_5fa92d6.jpg" alt=""/></li>
+            <li><img src="picture/dt1-2_eccb5f7.jpg" alt=""/></li>
+            <li><img src="picture/dt1-3_f3def65.jpg" alt=""/></li>
+            <li><img src="picture/dt1-1_5fa92d6.jpg" alt=""/></li>
+        </ul>
+    </div>
+    <div class="carousel_ImgBox">
+        <ul class="carousel_Img">
+            <li><img src="picture/dt2-2_8c2bcce.jpg" alt=""/></li>
+            <li><img src="picture/dt2-1_74df4cb.jpg" alt=""/></li>
+            <li><img src="picture/dt2-3_0235425.jpg" alt=""/></li>
+            <li><img src="picture/dt2-2_8c2bcce.jpg" alt=""/></li>
+        </ul>
+    </div>
+    <div class="carousel_ImgBox">
+        <ul class="carousel_Img">
+            <li><img src="picture/dt3-1_0cd7baa.jpg" alt=""/></li>
+            <li><img src="picture/dt3-2_bd4e1ea_1.jpg" alt=""/></li>
+            <li><img src="picture/dt3-3_95980e7.jpg" alt=""/></li>
+            <li><img src="picture/dt3-1_0cd7baa.jpg" alt=""/></li>
+        </ul>
+    </div>
+    <div class="carousel_ImgBox">
+        <ul class="carousel_Img">
+            <li><img src="picture/dt4-1_1b2de3c.jpg" alt=""/></li>
+            <li><img src="picture/dt4-2_d745e29.jpg" alt=""/></li>
+            <li><img src="picture/dt4-3_9800646.jpg" alt=""/></li>
+            <li><img src="picture/dt4-1_1b2de3c.jpg" alt=""/></li>
+        </ul>
+    </div>
+
+    <div class="carouselTitle">
+        <ul class="clearfix" id="ul_item">
+            <li class="hoverStyle">操纵万物，动静一念</li>
+            <li>奇思百变，随心而建</li>
+            <li>史诗世界，全民共现</li>
+            <li>突破常规，革新体验</li>
+        </ul>
+    </div>
+    <div class="carouselItem" id="carouselItem">
+        <div class="item current"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+</div>
+<!--tab栏前面的标题-->
+<div class="tabTitle w">
+</div>
+<!--tab栏-->
+<div class="tabBox w">
+    <div class="tabItem">
+        <ul>
+            <li class="newStyle">史诗级主线</li>
+            <li>烛龙大地图</li>
+            <li>开放式采集</li>
+            <li>超自由建造</li>
+            <li>触发式世界Boss</li>
+            <li>战场前尘幻境</li>
+            <li>邪龙沉睡之境</li>
+            <li>副本：鸿蒙秘境</li>
+        </ul>
+    </div>
+    <div class="tabImg">
+        <div class="img_box">
+            <img src="picture/zzp1_d1d371b.png" alt=""/>
+
+            <div class="info_box">
+                <p class="big">史诗级主线</p>
+
+                <p class="small">恢弘剧情任务 极致视听体验 大荒史诗风云变</p>
+            </div>
+        </div>
+        <div class="img_box">
+            <img src="picture/zzp2_c858616.png" alt=""/>
+
+            <div class="info_box">
+                <p class="big">史烛龙大地图</p>
+
+                <p class="small">龙形态大地图 故事交融场景 沉浸式剧情观感</p>
+            </div>
+        </div>
+        <div class="img_box">
+            <img src="picture/zzp3_35b90fe.png" alt=""/>
+
+            <div class="info_box">
+                <p class="big">开放式采集</p>
+
+                <p class="small">材料开放采集 地形随心改变 革新性交互体验</p>
+            </div>
+        </div>
+        <div class="img_box">
+            <img src="picture/zzp4_80c3a2e.png" alt=""/>
+
+            <div class="info_box">
+                <p class="big">超自由建造</p>
+
+                <p class="small">装备随性打造 亭台凭心而建 超自由创意空间</p>
+            </div>
+        </div>
+        <div class="img_box">
+            <img src="picture/zzp5_8a6e7e1.png" alt=""/>
+
+            <div class="info_box">
+                <p class="big">触发式世界Boss</p>
+
+                <p class="small">全服玩家协力 触发隐藏Boss 斗龙勇者赢珍宝</p>
+            </div>
+        </div>
+        <div class="img_box">
+            <img src="picture/zzp6_a3ace92.png" alt=""/>
+
+            <div class="info_box">
+                <p class="big">战场：前尘幻境</p>
+
+                <p class="small">复现梦里山河 决意再战今朝 前尘幻境战意扬</p>
+            </div>
+        </div>
+        <div class="img_box">
+            <img src="picture/zzp7_5bd26b2.png" alt=""/>
+
+            <div class="info_box">
+                <p class="big">邪龙沉睡之境</p>
+
+                <p class="small">异世风云再起 精英挑战来袭 龙之残魂试锋芒</p>
+            </div>
+        </div>
+        <div class="img_box">
+            <img src="picture/zzp8_8da7349.png" alt=""/>
+
+            <div class="info_box">
+                <p class="big">副本：鸿蒙秘境</p>
+
+                <p class="small">天降烛龙之钥 暗藏秘境夺宝 幻化乱斗出奇招</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--更多惊喜标题-->
+<div class="moreJXtitle">
+</div>
+<!--更多惊喜下面的盒子-->
+<div class="moreJXBox w">
+    <div class="JX_1">
+        <div class="bgBox bgBox1"></div>
+        <div class="textBox">
+            <h3>国风乐章又起，大师制作</h3>
+            <span>《天下3》资料片“物换星移”再度联手音乐制作人骆集益，以国风氤氲、韵味悠长的剧情音乐，诠释大荒世界的风云变幻。</span>
+            <span class="knowMore">了解更多</span>
+        </div>
+    </div>
+    <div class="JX_2">
+        <div class="bgBox bgBox2"></div>
+        <div class="textBox">
+            <h3>回流玩家特权，荣耀再战</h3>
+            <span>玩家回流大荒荣耀特权，经验加速团队共享，独特称号彰显身份，更有专属时装“苍狼啸月”、坐骑“奋蹄扬鬃”助你帅气回归。</span>
+            <span class="knowMore">了解更多</span>
+        </div>
+    </div>
+    <div class="JX_3">
+        <div class="bgBox bgBox3"></div>
+        <div class="textBox">
+            <h3>年度实体盒子，惊艳来临</h3>
+            <span>2017年度实体盒子首次曝光，限定时装坐骑华丽现身，精美周边物品惊艳全场。限时预约现已开启。</span>
+            <span class="knowMore">了解更多</span>
+        </div>
+    </div>
+    <div class="bigHiddenBox" style="width: 1349px;height: 658px;background: #000;opacity: .7;position: fixed;left: 0;top:0;display: none;z-index: 998">
+    </div>
+    <div class="hiddenBox">
+        <div class="leftBox">
+            <ul class="layui-nav" lay-filter="">
+                <li class="layui-nav-item nav_item"><a href="">登录赢大礼</a></li>
+                <li class="layui-nav-item nav_item layui-this"><a href="">国风乐章又起</a></li>
+                <li class="layui-nav-item nav_item"><a href="">回流玩家特权</a></li>
+                <li class="layui-nav-item nav_item"><a href="">年度实体盒子</a></li>
+            </ul>
+            <div class="content" style="text-align: center;font-size: 22px">
+                敬请期待！
+            </div>
+            <div class="content">
+                <div class="span">《天下3》资料片“物换星移”再度联手音乐制作人骆集益，以国风氤氲、韵味悠长的剧情音乐，诠释大荒世界的风云变幻。</div>
+                <div class="BG_Img"><img src="images/pop_rk2_d0325e8.png" alt="" /></div>
+            </div>
+            <div class="content">
+                <div class="span">玩家回流大荒荣耀特权，经验加速团队共享，独特称号彰显身份，更有专属时装“苍狼啸月”、坐骑“奋蹄扬鬃”助你帅气回归。</div>
+                <div class="BG_Img"><img src="images/pop_rk1_a95b3ed.png" alt="" /></div>
+            </div>
+            <div class="content">
+                <div class="span">
+                    2017年度实体盒子首次曝光，限定时装坐骑华丽现身，精美周边物品惊艳全场。限时预约现已开启。预约地址：
+                    https://gift.163.com/product_dtl/2497.html
+                </div>
+                <div class="BG_Img"><img src="images/pop_rk3_e6fd59e.png" alt=""/></div>
+            </div>
+        </div>
+        <div class="rightBox">
+            <div class="rightBox_top">
+                <ul>
+                    <li>极速下载客户端</li>
+                </ul>
+                <a href=""><img src="images/down_3f1e2db_r2_c2.png" alt="" style="height: 180px"/></a>
+                <div class="btnImg">下载游戏</div>
+            </div>
+            <div class="rightBox_bottom">
+                <ul>
+                    <li>5秒快速注册</li>
+                </ul>
+                <input type="text" placeholder=" &nbsp;邮箱注册"/>
+                <input type="password" placeholder=" &nbsp;6-16位密码，区分大小写"/>
+                <span class="info">我同意《服务条款》和《隐私保护和个人信息利用政策》</span>
+                <div class="btnImg">立即注册</div>
+            </div>
+        </div>
+        <div class="closeBtn" id="closeBtn"></div>
+    </div>
+</div>
+<!--11大门派-->
+<div class="tabPeople w">
+    <div class="peopleImg">
+        <img src="picture/mp1_3db19c4.jpg" alt=""/>
+    </div>
+    <div class="peopleImg">
+        <img src="picture/mp2_1b0e910.jpg" alt=""/>
+    </div>
+    <div class="peopleImg">
+        <img src="picture/mp3_c88219d.jpg" alt=""/>
+    </div>
+    <div class="peopleImg">
+        <img src="picture/mp4_0286cf1.jpg" alt=""/>
+    </div>
+    <div class="peopleImg">
+        <img src="picture/mp5_c5b8b0f.jpg" alt=""/>
+    </div>
+    <div class="peopleImg">
+        <img src="picture/mp6_223b0c7.jpg" alt=""/>
+    </div>
+    <div class="peopleImg">
+        <img src="picture/mp7_7babace.jpg" alt=""/>
+    </div>
+    <div class="peopleImg">
+        <img src="picture/mp8_f85bbed.jpg" alt=""/>
+    </div>
+    <div class="peopleImg">
+        <img src="picture/mp9s_29b586a.jpg" alt=""/>
+    </div>
+    <div class="peopleImg">
+        <img src="picture/mp10_37b4ec5.jpg" alt=""/>
+    </div>
+    <div class="peopleImg">
+        <img src="picture/mp11_4c7dce5.jpg" alt=""/>
+    </div>
+    <h1>11大门派</h1>
+    <ul id="people_item">
+        <li>幽篁国</li>
+        <li>荒火</li>
+        <li>太虚</li>
+        <li>天机</li>
+        <li>云麓</li>
+        <li>翎羽</li>
+        <li>冰心</li>
+        <li>魍魉</li>
+        <li>奕剑</li>
+        <li>龙巫</li>
+        <li>鬼墨</li>
+    </ul>
+
+</div>
+<!--foot-->
+<div class="footer clearfix" style="background:#000;height: 300px;width: 100%;">
+
+    <div class="w">
+        <div class="fl">
+            <div class="footer-top">
+                <div class="footer_img fl">
+
+                    <img src="images/logo.png" height="44" width="133"/>
+                </div>
+                <div class="txt fl">
+
+                    <a href="#">公司简介</a> - <a href="#">客户服务</a> -
+                    <a href="#">相关法律</a> - <a href="#">网易游戏</a> - <a href="#">联系我们</a> - <a href="#">商务合作</a>
+                    - <a
+                        href="#">加入我们</a> <br>
+                    杭州网易雷火科技有限公司版权所有 ©1997-2017 <a href="javascript:void(0);"
+                                                   style="background:#b30210; color: #fff">点击查看家长监护工程</a>
+                </div>
+
+            </div>
+            <div class="footer-bottom">
+                本游戏适合18岁以上的玩家进入。<br>
+                积极健康的游戏心态是健康游戏的开端，本游戏故事情节设置紧凑，请您合理控制游戏时间，避免沉溺游戏影响生活，注意自我保护，防范网络陷阱。
+                《网络游戏管理暂行办法》 文网游备字(2013)C-RPG001号 《网络文化经营许可证》 浙网文[2016]0155-055号 ISBN 978-7-89462-643-1
+                tx3.163.com由广州网易计算机系统有限公司授权杭州网易雷火科技有限公司使用
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</body>
+</html>
